@@ -1,0 +1,158 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-color: #edf2f4;
+}
+
+.container {
+    width: 300px;
+    padding: 25px 35px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.textBox {
+    height: 25px;
+    padding: 20px 10px;
+    width: 100%;
+    outline: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: large;
+    box-sizing: border-box;
+}
+
+.lbl {
+    font-size: x-large219ebc;
+}
+
+.btnDiv {
+    display: flex;
+}
+
+.btnGnr {
+    font-size: large;
+    font-weight: bold;
+    height: 50px;
+    width: 100%;
+    margin: 4px;
+    background-color: transparent;
+    color: #000;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.btnDwn {
+    font-size: large;
+    font-weight: bold;
+    height: 50px;
+    width: 100%;
+    margin: 4px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.btnGnr:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.btnDwn:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.btnGnr:active {
+    background-color: #fca311;
+}
+
+.btnDwn:active {
+    background-color: yellow;
+}
+
+#selectSize {
+    margin-bottom: 10px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+p {
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.imgCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.qrCode {
+    width: 150px;
+    padding: 5px 5px;
+    border: 1px solid black;
+}
+
+img {
+    display: none;
+}
+
+.textBoxShake {
+    animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    10% {
+        transform: translateX(-10px);
+    }
+
+    20% {
+        transform: translateX(10px);
+    }
+
+    30% {
+        transform: translateX(-10px);
+    }
+
+    40% {
+        transform: translateX(10px);
+    }
+
+    50% {
+        transform: translateX(-10px);
+    }
+
+    60% {
+        transform: translateX(10px);
+    }
+
+    70% {
+        transform: translateX(-10px);
+    }
+
+    80% {
+        transform: translateX(10px);
+    }
+
+    90% {
+        transform: translateX(-10px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
