@@ -7,13 +7,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 95vh;
-    background-color: blue;
+    background-color: #edf2f4;
 }
 
 .container {
     width: 300px;
     padding: 25px 35px;
-    background-color: #fff;
+    background-color: #000;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
