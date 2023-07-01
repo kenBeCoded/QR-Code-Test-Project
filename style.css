@@ -13,7 +13,7 @@ body {
 .container {
     width: 300px;
     padding: 25px 35px;
-    background-color: #000;
+    background-color: #fff;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
